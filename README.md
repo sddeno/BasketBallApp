@@ -1,10 +1,5 @@
-### Home Screen
-![Screenshot 1](assets/screenshot1.png)
+![Simulator Screen Recording - iPhone 16 Pro - 2025-09-18 at 20 38 34](https://github.com/user-attachments/assets/726ee063-af52-415b-ab15-f4701c31e581)
 
-### Game Details
-![Screenshot 2](assets/screenshot2.png)
 
----
+https://github.com/user-attachments/assets/3cf529be-67eb-48d7-abc6-3b7f1fa55958
 
-## 🎥 Demo Video
-[![Watch the video](assets/screenshot1.png)](assets/demo.mp4)
