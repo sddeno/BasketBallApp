@@ -37,6 +37,11 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		8188EAC02E7C576900E0B2DE /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 		8188EA952E7C519D00E0B2DE = {
 			isa = PBXGroup;
 			children = (
+				8188EAC02E7C576900E0B2DE /* Assets */,
 				8188EABC2E7C529500E0B2DE /* Schedule.json */,
 				8188EABD2E7C529500E0B2DE /* teams.json */,
 				8188EAB72E7C520300E0B2DE /* Views */,
@@ -99,6 +105,7 @@
 				8188EAA02E7C519D00E0B2DE /* BasketBallApp */,
 				8188EAAF2E7C51AB00E0B2DE /* Models */,
 				8188EAB42E7C51C700E0B2DE /* ViewModels */,
+				8188EAC02E7C576900E0B2DE /* Assets */,
 			);
 			name = BasketBallApp;
 			packageProductDependencies = (
