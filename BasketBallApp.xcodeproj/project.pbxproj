@@ -6,14 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8188EAB92E7C520D00E0B2DE /* GameRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188EAB82E7C520D00E0B2DE /* GameRowView.swift */; };
+		8188EABB2E7C521400E0B2DE /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188EABA2E7C521400E0B2DE /* TeamView.swift */; };
+		8188EABE2E7C529500E0B2DE /* Schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 8188EABC2E7C529500E0B2DE /* Schedule.json */; };
+		8188EABF2E7C529500E0B2DE /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = 8188EABD2E7C529500E0B2DE /* teams.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8188EA9E2E7C519D00E0B2DE /* BasketBallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketBallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8188EAB82E7C520D00E0B2DE /* GameRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRowView.swift; sourceTree = "<group>"; };
+		8188EABA2E7C521400E0B2DE /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		8188EABC2E7C529500E0B2DE /* Schedule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Schedule.json; sourceTree = "<group>"; };
+		8188EABD2E7C529500E0B2DE /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8188EAA02E7C519D00E0B2DE /* BasketBallApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BasketBallApp;
+			sourceTree = "<group>";
+		};
+		8188EAAF2E7C51AB00E0B2DE /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8188EAB42E7C51C700E0B2DE /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +53,11 @@
 		8188EA952E7C519D00E0B2DE = {
 			isa = PBXGroup;
 			children = (
+				8188EABC2E7C529500E0B2DE /* Schedule.json */,
+				8188EABD2E7C529500E0B2DE /* teams.json */,
+				8188EAB72E7C520300E0B2DE /* Views */,
+				8188EAB42E7C51C700E0B2DE /* ViewModels */,
+				8188EAAF2E7C51AB00E0B2DE /* Models */,
 				8188EAA02E7C519D00E0B2DE /* BasketBallApp */,
 				8188EA9F2E7C519D00E0B2DE /* Products */,
 			);
@@ -43,6 +69,15 @@
 				8188EA9E2E7C519D00E0B2DE /* BasketBallApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8188EAB72E7C520300E0B2DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8188EAB82E7C520D00E0B2DE /* GameRowView.swift */,
+				8188EABA2E7C521400E0B2DE /* TeamView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +97,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				8188EAA02E7C519D00E0B2DE /* BasketBallApp */,
+				8188EAAF2E7C51AB00E0B2DE /* Models */,
+				8188EAB42E7C51C700E0B2DE /* ViewModels */,
 			);
 			name = BasketBallApp;
 			packageProductDependencies = (
@@ -109,6 +146,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8188EABE2E7C529500E0B2DE /* Schedule.json in Resources */,
+				8188EABF2E7C529500E0B2DE /* teams.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8188EABB2E7C521400E0B2DE /* TeamView.swift in Sources */,
+				8188EAB92E7C520D00E0B2DE /* GameRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

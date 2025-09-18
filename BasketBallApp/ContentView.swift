@@ -8,16 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var vm = ScheduleViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            Group {
+                if let error = vm.errorMessage {
+                    Text("Error: \(error)")
+                        .foregroundColor(.red)
+                        .padding()
+                } else {
+                    List {
+                        ForEach(vm.gamesByMonth, id: \.monthName) { section in
+                            Section(header: Text(section.monthName).font(.headline)) {
+                                ForEach(section.games) { game in
+                                    GameRowView(game: game)
+                                        .listRowBackground(Color(UIColor.systemGray6))
+                                }
+                            }
+                        }
+                    }
+                    .listStyle(.plain)
+                }
+            }
+            .navigationTitle("Schedule")
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
